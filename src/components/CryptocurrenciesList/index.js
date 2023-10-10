@@ -69,7 +69,9 @@ class CryptocurrenciesList extends Component {
           </ul>
           <ul>
             {isLoading ? (
-              <Loader type="TailSpin" height={50} width={50} />
+              <div data-testid="loader">
+                <Loader type="TailSpin" height={50} width={50} />
+              </div>
             ) : (
               currencyList.map(each => (
                 <CryptocurrencyItem key={each.id} eachItem={each} />

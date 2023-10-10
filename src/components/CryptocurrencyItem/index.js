@@ -7,7 +7,7 @@ const CryptocurrencyItem = props => {
   return (
     <li className="card-items">
       <div className="currency-image">
-        <img alt={usdValue} src={currencyLogo} width={40} height={40} />
+        <img alt={currencyName} src={currencyLogo} width={40} height={40} />
         <p>{currencyName}</p>
       </div>
       <p>{usdValue}</p>

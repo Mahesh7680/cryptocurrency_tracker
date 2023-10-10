@@ -10,3 +10,6 @@
   padding: 5px;
   border-radius: 10px 10px 0 0;
 }
+.table-names-container p {
+  width: 150px;
+}
