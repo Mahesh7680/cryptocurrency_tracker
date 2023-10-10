@@ -1,0 +1,19 @@
+.currency-image {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.currency-image img {
+  height: 25px;
+  width: 25px;
+}
+.card-items {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 5em;
+  height: 50px;
+}
+.card-items p {
+  width: 25px;
+}
